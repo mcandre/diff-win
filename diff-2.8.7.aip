@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="8.9" version="8.9" Modules="simple" RootPath="." Language="en" Id="{0AEE6708-BF4C-46D3-B899-7297C3310231}">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="ALLUSERS" Value="2"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="ARPPRODUCTICON" Value="diff.exe" Type="8"/>
+    <ROW Property="ARPURLINFOABOUT" Value="http://www.gnu.org/software/diffutils/"/>
+    <ROW Property="Manufacturer" Value="GNU" ValueLocId="*"/>
+    <ROW Property="ProductCode" Value="1033:{041ED024-17FC-4001-AC8F-5EA0F73D6494} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="Diff" ValueLocId="*"/>
+    <ROW Property="ProductVersion" Value="2.8.7"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{2BBA65FD-6496-4F99-B59E-394C3D4AE146}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="LC_MESSAGES_10_Dir" Directory_Parent="he_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_11_Dir" Directory_Parent="hu_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_12_Dir" Directory_Parent="id_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_13_Dir" Directory_Parent="ja_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_14_Dir" Directory_Parent="ms_1_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_15_Dir" Directory_Parent="nl_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_16_Dir" Directory_Parent="pl_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_17_Dir" Directory_Parent="pt_BR_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_18_Dir" Directory_Parent="ro_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_19_Dir" Directory_Parent="ru_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_1_Dir" Directory_Parent="cs_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_20_Dir" Directory_Parent="sr_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_21_Dir" Directory_Parent="sv_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_22_Dir" Directory_Parent="tr_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_23_Dir" Directory_Parent="zh_TW_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_2_Dir" Directory_Parent="da_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_3_Dir" Directory_Parent="de_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_4_Dir" Directory_Parent="el_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_5_Dir" Directory_Parent="eo_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_6_Dir" Directory_Parent="es_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_7_Dir" Directory_Parent="fi_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_8_Dir" Directory_Parent="fr_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_9_Dir" Directory_Parent="gl_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_Dir" Directory_Parent="ca_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="__1_Dir" Directory_Parent="diffutils_1_Dir" DefaultDir="28~1.7|2.8.7"/>
+    <ROW Directory="__Dir" Directory_Parent="diffutils_Dir" DefaultDir="28~1.7|2.8.7"/>
+    <ROW Directory="bin_Dir" Directory_Parent="APPDIR" DefaultDir="bin"/>
+    <ROW Directory="ca_Dir" Directory_Parent="locale_Dir" DefaultDir="ca"/>
+    <ROW Directory="cat1_Dir" Directory_Parent="man_Dir" DefaultDir="cat1"/>
+    <ROW Directory="contrib_Dir" Directory_Parent="APPDIR" DefaultDir="contrib"/>
+    <ROW Directory="cs_Dir" Directory_Parent="locale_Dir" DefaultDir="cs"/>
+    <ROW Directory="da_Dir" Directory_Parent="locale_Dir" DefaultDir="da"/>
+    <ROW Directory="de_Dir" Directory_Parent="locale_Dir" DefaultDir="de"/>
+    <ROW Directory="diffutils2.8.7_Dir" Directory_Parent="__1_Dir" DefaultDir="diffut~1.7|diffutils-2.8.7"/>
+    <ROW Directory="diffutils2.8.7src_Dir" Directory_Parent="__Dir" DefaultDir="diffut~1.7-s|diffutils-2.8.7-src"/>
+    <ROW Directory="diffutils_1_Dir" Directory_Parent="doc_Dir" DefaultDir="diffut~1|diffutils"/>
+    <ROW Directory="diffutils_Dir" Directory_Parent="contrib_Dir" DefaultDir="diffut~1|diffutils"/>
+    <ROW Directory="doc_Dir" Directory_Parent="APPDIR" DefaultDir="doc"/>
+    <ROW Directory="el_Dir" Directory_Parent="locale_Dir" DefaultDir="el"/>
+    <ROW Directory="eo_Dir" Directory_Parent="locale_Dir" DefaultDir="eo"/>
+    <ROW Directory="es_Dir" Directory_Parent="locale_Dir" DefaultDir="es"/>
+    <ROW Directory="fi_Dir" Directory_Parent="locale_Dir" DefaultDir="fi"/>
+    <ROW Directory="fr_Dir" Directory_Parent="locale_Dir" DefaultDir="fr"/>
+    <ROW Directory="gl_Dir" Directory_Parent="locale_Dir" DefaultDir="gl"/>
+    <ROW Directory="he_Dir" Directory_Parent="locale_Dir" DefaultDir="he"/>
+    <ROW Directory="html_Dir" Directory_Parent="man_Dir" DefaultDir="html"/>
+    <ROW Directory="hu_Dir" Directory_Parent="locale_Dir" DefaultDir="hu"/>
+    <ROW Directory="id_Dir" Directory_Parent="locale_Dir" DefaultDir="id"/>
+    <ROW Directory="info_Dir" Directory_Parent="APPDIR" DefaultDir="info"/>
+    <ROW Directory="ja_Dir" Directory_Parent="locale_Dir" DefaultDir="ja"/>
+    <ROW Directory="locale_Dir" Directory_Parent="share_Dir" DefaultDir="locale"/>
+    <ROW Directory="man1_Dir" Directory_Parent="man_Dir" DefaultDir="man1"/>
+    <ROW Directory="man_Dir" Directory_Parent="APPDIR" DefaultDir="man"/>
+    <ROW Directory="manifest_Dir" Directory_Parent="APPDIR" DefaultDir="manifest"/>
+    <ROW Directory="ms_1_Dir" Directory_Parent="locale_Dir" DefaultDir="ms"/>
+    <ROW Directory="ms_Dir" Directory_Parent="diffutils2.8.7src_Dir" DefaultDir="ms"/>
+    <ROW Directory="nl_Dir" Directory_Parent="locale_Dir" DefaultDir="nl"/>
+    <ROW Directory="pdf_Dir" Directory_Parent="man_Dir" DefaultDir="pdf"/>
+    <ROW Directory="pl_Dir" Directory_Parent="locale_Dir" DefaultDir="pl"/>
+    <ROW Directory="ps_Dir" Directory_Parent="man_Dir" DefaultDir="ps"/>
+    <ROW Directory="pt_BR_Dir" Directory_Parent="locale_Dir" DefaultDir="pt_BR"/>
+    <ROW Directory="ro_Dir" Directory_Parent="locale_Dir" DefaultDir="ro"/>
+    <ROW Directory="ru_Dir" Directory_Parent="locale_Dir" DefaultDir="ru"/>
+    <ROW Directory="share_Dir" Directory_Parent="APPDIR" DefaultDir="share"/>
+    <ROW Directory="sr_Dir" Directory_Parent="locale_Dir" DefaultDir="sr"/>
+    <ROW Directory="sv_Dir" Directory_Parent="locale_Dir" DefaultDir="sv"/>
+    <ROW Directory="tr_Dir" Directory_Parent="locale_Dir" DefaultDir="tr"/>
+    <ROW Directory="zh_TW_Dir" Directory_Parent="locale_Dir" DefaultDir="zh_TW"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="ABOUTNLS" ComponentId="{700B0E16-2875-41D9-BC18-5446295F3B31}" Directory_="diffutils2.8.7src_Dir" Attributes="0" KeyPath="ABOUTNLS" Type="0"/>
+    <ROW Component="ProductInformation" ComponentId="{FE8B9A80-7252-43FC-83BF-074FFF44CFF3}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="README" ComponentId="{7CAAA280-E153-45F5-8EE6-7577DF2EE3D2}" Directory_="ms_Dir" Attributes="0" KeyPath="README" Type="0"/>
+    <ROW Component="cmp.1" ComponentId="{494DA817-F02C-4564-A2EA-DB643B6CC1F0}" Directory_="man1_Dir" Attributes="0" KeyPath="cmp.1" Type="0"/>
+    <ROW Component="cmp.1.html" ComponentId="{E077A48C-9F62-4697-9325-C8F24B10C8DD}" Directory_="html_Dir" Attributes="0" KeyPath="cmp.1.html" Type="0"/>
+    <ROW Component="cmp.1.txt" ComponentId="{207386BA-9903-467B-94E7-6CC527785A61}" Directory_="cat1_Dir" Attributes="0" KeyPath="cmp.1.txt" Type="0"/>
+    <ROW Component="cmp.exe" ComponentId="{EBB0C1ED-DFD4-4957-9BAF-BDB9208CBD3A}" Directory_="bin_Dir" Attributes="0" KeyPath="cmp.exe"/>
+    <ROW Component="dependsGnuWin32.lst" ComponentId="{AF3F60E6-6164-452E-BB30-1C864DDFCFFF}" Directory_="__Dir" Attributes="0" KeyPath="dependsGnuWin32.lst" Type="0"/>
+    <ROW Component="diff.chm" ComponentId="{0FDB2954-7BC0-4CD5-8503-EF20C66AF069}" Directory_="diffutils2.8.7_Dir" Attributes="0" KeyPath="diff.chm" Type="1"/>
+    <ROW Component="diff.dvi.gz" ComponentId="{C8D8D977-4F4C-45DB-8731-C1E4FEF4ED99}" Directory_="diffutils2.8.7_Dir" Attributes="0" KeyPath="diff.dvi.gz" Type="0"/>
+    <ROW Component="diff.exe" ComponentId="{D6852E66-FB08-4BB8-9AE8-2082361C7D8F}" Directory_="bin_Dir" Attributes="0" KeyPath="diff.exe"/>
+    <ROW Component="diff.hlp" ComponentId="{58D350D2-7EDF-4DC4-BA2A-BEFB6F26D618}" Directory_="diffutils2.8.7_Dir" Attributes="0" KeyPath="diff.hlp" Type="2"/>
+    <ROW Component="diff.info" ComponentId="{E606DD48-7D5F-448D-A8D6-6D4A931B87E6}" Directory_="info_Dir" Attributes="0" KeyPath="diff.info" Type="0"/>
+    <ROW Component="diff3.exe" ComponentId="{98CDD68C-B4A8-4920-A136-061470E2A869}" Directory_="bin_Dir" Attributes="0" KeyPath="diff3.exe"/>
+    <ROW Component="diffutils.mo" ComponentId="{B22BB604-13F0-4C5B-9F03-7C21F05B9EBE}" Directory_="LC_MESSAGES_Dir" Attributes="0" KeyPath="diffutils.mo" Type="0"/>
+    <ROW Component="diffutils.mo_1" ComponentId="{59ACC329-A664-4764-9B9E-C902E2660CF9}" Directory_="LC_MESSAGES_1_Dir" Attributes="0" KeyPath="diffutils.mo_1" Type="0"/>
+    <ROW Component="diffutils.mo_10" ComponentId="{EFF46128-ED53-4438-9269-F168FC05DE2B}" Directory_="LC_MESSAGES_10_Dir" Attributes="0" KeyPath="diffutils.mo_10" Type="0"/>
+    <ROW Component="diffutils.mo_11" ComponentId="{9CBEEE5D-9CFF-46B1-ACA7-DA847EC6D049}" Directory_="LC_MESSAGES_11_Dir" Attributes="0" KeyPath="diffutils.mo_11" Type="0"/>
+    <ROW Component="diffutils.mo_12" ComponentId="{BCED4BFF-D210-4494-A138-642B69F2D513}" Directory_="LC_MESSAGES_12_Dir" Attributes="0" KeyPath="diffutils.mo_12" Type="0"/>
+    <ROW Component="diffutils.mo_13" ComponentId="{4EEB895C-AACE-4C97-A752-77B675AC58E1}" Directory_="LC_MESSAGES_13_Dir" Attributes="0" KeyPath="diffutils.mo_13" Type="0"/>
+    <ROW Component="diffutils.mo_14" ComponentId="{421BEB82-137C-42DE-BC6F-5B0B3AF9F109}" Directory_="LC_MESSAGES_14_Dir" Attributes="0" KeyPath="diffutils.mo_14" Type="0"/>
+    <ROW Component="diffutils.mo_15" ComponentId="{55A77FD5-C1F2-4C21-B9B4-DB1845EEE715}" Directory_="LC_MESSAGES_15_Dir" Attributes="0" KeyPath="diffutils.mo_15" Type="0"/>
+    <ROW Component="diffutils.mo_16" ComponentId="{2C4373EB-F84D-490A-9247-A826FEB06C97}" Directory_="LC_MESSAGES_16_Dir" Attributes="0" KeyPath="diffutils.mo_16" Type="0"/>
+    <ROW Component="diffutils.mo_17" ComponentId="{C4112DC8-72BE-4175-AFAF-5E25BAFBDC26}" Directory_="LC_MESSAGES_17_Dir" Attributes="0" KeyPath="diffutils.mo_17" Type="0"/>
+    <ROW Component="diffutils.mo_18" ComponentId="{0D68CC20-B7C6-4EB6-8941-73FA0D1B933F}" Directory_="LC_MESSAGES_18_Dir" Attributes="0" KeyPath="diffutils.mo_18" Type="0"/>
+    <ROW Component="diffutils.mo_19" ComponentId="{49BC0D54-6E0A-4F4B-A9BE-812A727DD8DB}" Directory_="LC_MESSAGES_19_Dir" Attributes="0" KeyPath="diffutils.mo_19" Type="0"/>
+    <ROW Component="diffutils.mo_2" ComponentId="{8EDB55FA-0A5C-4F2D-9BE0-1D3667D7EF97}" Directory_="LC_MESSAGES_2_Dir" Attributes="0" KeyPath="diffutils.mo_2" Type="0"/>
+    <ROW Component="diffutils.mo_20" ComponentId="{F358C0EC-C329-4D0F-B5DD-424F17997296}" Directory_="LC_MESSAGES_20_Dir" Attributes="0" KeyPath="diffutils.mo_20" Type="0"/>
+    <ROW Component="diffutils.mo_21" ComponentId="{259A8D6C-2193-4C56-A09A-AAAD3D20B566}" Directory_="LC_MESSAGES_21_Dir" Attributes="0" KeyPath="diffutils.mo_21" Type="0"/>
+    <ROW Component="diffutils.mo_22" ComponentId="{D1948063-07F4-47DA-A761-2F1246D6C776}" Directory_="LC_MESSAGES_22_Dir" Attributes="0" KeyPath="diffutils.mo_22" Type="0"/>
+    <ROW Component="diffutils.mo_23" ComponentId="{23A00E63-1032-4808-9E43-DF476ADE5C8B}" Directory_="LC_MESSAGES_23_Dir" Attributes="0" KeyPath="diffutils.mo_23" Type="0"/>
+    <ROW Component="diffutils.mo_3" ComponentId="{0BA998BD-D05D-48EE-8A39-53B5EF993248}" Directory_="LC_MESSAGES_3_Dir" Attributes="0" KeyPath="diffutils.mo_3" Type="0"/>
+    <ROW Component="diffutils.mo_4" ComponentId="{F6F47019-08FF-4BF8-84A6-C9362B05FCC2}" Directory_="LC_MESSAGES_4_Dir" Attributes="0" KeyPath="diffutils.mo_4" Type="0"/>
+    <ROW Component="diffutils.mo_5" ComponentId="{DF3C481C-8324-4A96-848E-E7020AE8BCC9}" Directory_="LC_MESSAGES_5_Dir" Attributes="0" KeyPath="diffutils.mo_5" Type="0"/>
+    <ROW Component="diffutils.mo_6" ComponentId="{7FB12EEF-53B9-4287-B022-8CD22FC0538C}" Directory_="LC_MESSAGES_6_Dir" Attributes="0" KeyPath="diffutils.mo_6" Type="0"/>
+    <ROW Component="diffutils.mo_7" ComponentId="{2534138D-D745-45EE-97B0-4436334E69CD}" Directory_="LC_MESSAGES_7_Dir" Attributes="0" KeyPath="diffutils.mo_7" Type="0"/>
+    <ROW Component="diffutils.mo_8" ComponentId="{0B880142-66CB-4C85-90BC-65415055AAA7}" Directory_="LC_MESSAGES_8_Dir" Attributes="0" KeyPath="diffutils.mo_8" Type="0"/>
+    <ROW Component="diffutils.mo_9" ComponentId="{CBDC41B3-2266-4EFA-A16F-157B939A7F94}" Directory_="LC_MESSAGES_9_Dir" Attributes="0" KeyPath="diffutils.mo_9" Type="0"/>
+    <ROW Component="diffutils2.8.71bin.mft" ComponentId="{15B80CDD-0146-43FC-B5F3-5DA3C3C98218}" Directory_="manifest_Dir" Attributes="0" KeyPath="diffutils2.8.71bin.mft" Type="0"/>
+    <ROW Component="diffutilsman.pdf" ComponentId="{0A2E3FC9-D6C3-425A-A2F8-19DA5E382E64}" Directory_="pdf_Dir" Attributes="0" KeyPath="diffutilsman.pdf" Type="0"/>
+    <ROW Component="diffutilsman.ps.gz" ComponentId="{6236C48C-6C9E-4E64-9BA8-CB507578550C}" Directory_="ps_Dir" Attributes="0" KeyPath="diffutilsman.ps.gz" Type="0"/>
+    <ROW Component="libiconv2.dll" ComponentId="{0642E329-1F07-4F15-84FE-20449D1BC5C0}" Directory_="bin_Dir" Attributes="0" KeyPath="libiconv2.dll"/>
+    <ROW Component="libintl3.dll" ComponentId="{079FE282-7CA4-4203-B371-876D44D4C58D}" Directory_="bin_Dir" Attributes="0" KeyPath="libintl3.dll"/>
+    <ROW Component="sdiff.exe" ComponentId="{C48BEBCA-7E3C-4DC7-BFD1-07040302368E}" Directory_="bin_Dir" Attributes="0" KeyPath="sdiff.exe"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0" Components="ABOUTNLS ProductInformation README cmp.1 cmp.1.html cmp.1.txt cmp.exe dependsGnuWin32.lst diff.chm diff.dvi.gz diff.exe diff.hlp diff.info diff3.exe diffutils.mo diffutils.mo_1 diffutils.mo_10 diffutils.mo_11 diffutils.mo_12 diffutils.mo_13 diffutils.mo_14 diffutils.mo_15 diffutils.mo_16 diffutils.mo_17 diffutils.mo_18 diffutils.mo_19 diffutils.mo_2 diffutils.mo_20 diffutils.mo_21 diffutils.mo_22 diffutils.mo_23 diffutils.mo_3 diffutils.mo_4 diffutils.mo_5 diffutils.mo_6 diffutils.mo_7 diffutils.mo_8 diffutils.mo_9 diffutils2.8.71bin.mft diffutilsman.pdf diffutilsman.ps.gz libiconv2.dll libintl3.dll sdiff.exe"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="ABOUTNLS" Component_="ABOUTNLS" FileName="ABOUT-~1|ABOUT-NLS" Attributes="0" SourcePath="contrib\diffutils\2.8.7\diffutils-2.8.7-src\ABOUT-NLS" SelfReg="false" NextFile="AUTHORS"/>
+    <ROW File="AUTHORS" Component_="ABOUTNLS" FileName="AUTHORS" Attributes="0" SourcePath="contrib\diffutils\2.8.7\diffutils-2.8.7-src\AUTHORS" SelfReg="false" NextFile="ChangeLog"/>
+    <ROW File="COPYING" Component_="ABOUTNLS" FileName="COPYING" Attributes="0" SourcePath="contrib\diffutils\2.8.7\diffutils-2.8.7-src\COPYING" SelfReg="false" NextFile="INSTALL"/>
+    <ROW File="ChangeLog" Component_="ABOUTNLS" FileName="Change~1|ChangeLog" Attributes="0" SourcePath="contrib\diffutils\2.8.7\diffutils-2.8.7-src\ChangeLog" SelfReg="false" NextFile="COPYING"/>
+    <ROW File="INSTALL" Component_="ABOUTNLS" FileName="INSTALL" Attributes="0" SourcePath="contrib\diffutils\2.8.7\diffutils-2.8.7-src\INSTALL" SelfReg="false" NextFile="README"/>
+    <ROW File="NEWS" Component_="ABOUTNLS" FileName="NEWS" Attributes="0" SourcePath="contrib\diffutils\2.8.7\diffutils-2.8.7-src\NEWS" SelfReg="false" NextFile="README_1"/>
+    <ROW File="README" Component_="README" FileName="README" Attributes="0" SourcePath="contrib\diffutils\2.8.7\diffutils-2.8.7-src\ms\README" SelfReg="false" NextFile="NEWS"/>
+    <ROW File="README_1" Component_="ABOUTNLS" FileName="README" Attributes="0" SourcePath="contrib\diffutils\2.8.7\diffutils-2.8.7-src\README" SelfReg="false" NextFile="THANKS"/>
+    <ROW File="THANKS" Component_="ABOUTNLS" FileName="THANKS" Attributes="0" SourcePath="contrib\diffutils\2.8.7\diffutils-2.8.7-src\THANKS" SelfReg="false" NextFile="TODO"/>
+    <ROW File="TODO" Component_="ABOUTNLS" FileName="TODO" Attributes="0" SourcePath="contrib\diffutils\2.8.7\diffutils-2.8.7-src\TODO" SelfReg="false" NextFile="diff.chm"/>
+    <ROW File="cmp.1" Component_="cmp.1" FileName="cmp.1" Attributes="0" SourcePath="man\man1\cmp.1" SelfReg="false" NextFile="diff.1"/>
+    <ROW File="cmp.1.html" Component_="cmp.1.html" FileName="cmp1~1.htm|cmp.1.html" Attributes="0" SourcePath="man\html\cmp.1.html" SelfReg="false" NextFile="diff.1.html"/>
+    <ROW File="cmp.1.txt" Component_="cmp.1.txt" FileName="cmp1~1.txt|cmp.1.txt" Attributes="0" SourcePath="man\cat1\cmp.1.txt" SelfReg="false" NextFile="diff.1.txt"/>
+    <ROW File="cmp.exe" Component_="cmp.exe" FileName="cmp.exe" Attributes="0" SourcePath="bin\cmp.exe" SelfReg="false" NextFile="diff.exe"/>
+    <ROW File="dependsGnuWin32.lst" Component_="dependsGnuWin32.lst" FileName="depend~1.lst|depends-GnuWin32.lst" Attributes="0" SourcePath="contrib\diffutils\2.8.7\depends-GnuWin32.lst" SelfReg="false" NextFile="diffutils2.8.71GnuWin32.README"/>
+    <ROW File="diff.1" Component_="cmp.1" FileName="diff.1" Attributes="0" SourcePath="man\man1\diff.1" SelfReg="false" NextFile="diff3.1"/>
+    <ROW File="diff.1.html" Component_="cmp.1.html" FileName="diff1~1.htm|diff.1.html" Attributes="0" SourcePath="man\html\diff.1.html" SelfReg="false" NextFile="diff3.1.html"/>
+    <ROW File="diff.1.txt" Component_="cmp.1.txt" FileName="diff1~1.txt|diff.1.txt" Attributes="0" SourcePath="man\cat1\diff.1.txt" SelfReg="false" NextFile="diff3.1.txt"/>
+    <ROW File="diff.chm" Component_="diff.chm" FileName="diff.chm" Attributes="0" SourcePath="doc\diffutils\2.8.7\diffutils-2.8.7\diff.chm" SelfReg="false" NextFile="diff.dvi.gz"/>
+    <ROW File="diff.dvi.gz" Component_="diff.dvi.gz" FileName="diffdv~1.gz|diff.dvi.gz" Attributes="0" SourcePath="doc\diffutils\2.8.7\diffutils-2.8.7\diff.dvi.gz" SelfReg="false" NextFile="diff.hlp"/>
+    <ROW File="diff.exe" Component_="diff.exe" FileName="diff.exe" Attributes="0" SourcePath="bin\diff.exe" SelfReg="false" NextFile="diff3.exe"/>
+    <ROW File="diff.hlp" Component_="diff.hlp" FileName="diff.hlp" Attributes="0" SourcePath="doc\diffutils\2.8.7\diffutils-2.8.7\diff.hlp" SelfReg="false" NextFile="diff.html"/>
+    <ROW File="diff.html" Component_="diff.dvi.gz" FileName="diff~1.htm|diff.html" Attributes="0" SourcePath="doc\diffutils\2.8.7\diffutils-2.8.7\diff.html" SelfReg="false" NextFile="diff.pdf"/>
+    <ROW File="diff.info" Component_="diff.info" FileName="diff~1.inf|diff.info" Attributes="0" SourcePath="info\diff.info" SelfReg="false" NextFile="dir"/>
+    <ROW File="diff.pdf" Component_="diff.dvi.gz" FileName="diff.pdf" Attributes="0" SourcePath="doc\diffutils\2.8.7\diffutils-2.8.7\diff.pdf" SelfReg="false" NextFile="diff.ps.gz"/>
+    <ROW File="diff.ps.gz" Component_="diff.dvi.gz" FileName="diffps~1.gz|diff.ps.gz" Attributes="0" SourcePath="doc\diffutils\2.8.7\diffutils-2.8.7\diff.ps.gz" SelfReg="false" NextFile="diff.info"/>
+    <ROW File="diff3.1" Component_="cmp.1" FileName="diff3.1" Attributes="0" SourcePath="man\man1\diff3.1" SelfReg="false" NextFile="sdiff.1"/>
+    <ROW File="diff3.1.html" Component_="cmp.1.html" FileName="diff31~1.htm|diff3.1.html" Attributes="0" SourcePath="man\html\diff3.1.html" SelfReg="false" NextFile="sdiff.1.html"/>
+    <ROW File="diff3.1.txt" Component_="cmp.1.txt" FileName="diff31~1.txt|diff3.1.txt" Attributes="0" SourcePath="man\cat1\diff3.1.txt" SelfReg="false" NextFile="sdiff.1.txt"/>
+    <ROW File="diff3.exe" Component_="diff3.exe" FileName="diff3.exe" Attributes="0" SourcePath="bin\diff3.exe" SelfReg="false" NextFile="libiconv2.dll"/>
+    <ROW File="diffutils.mo" Component_="diffutils.mo" FileName="diffut~1.mo|diffutils.mo" Attributes="0" SourcePath="share\locale\ca\LC_MESSAGES\diffutils.mo" SelfReg="false" NextFile="diffutils.mo_1"/>
+    <ROW File="diffutils.mo_1" Component_="diffutils.mo_1" FileName="diffut~1.mo|diffutils.mo" Attributes="0" SourcePath="share\locale\cs\LC_MESSAGES\diffutils.mo" SelfReg="false" NextFile="diffutils.mo_2"/>
+    <ROW File="diffutils.mo_10" Component_="diffutils.mo_10" FileName="diffut~1.mo|diffutils.mo" Attributes="0" SourcePath="share\locale\he\LC_MESSAGES\diffutils.mo" SelfReg="false" NextFile="diffutils.mo_11"/>
+    <ROW File="diffutils.mo_11" Component_="diffutils.mo_11" FileName="diffut~1.mo|diffutils.mo" Attributes="0" SourcePath="share\locale\hu\LC_MESSAGES\diffutils.mo" SelfReg="false" NextFile="diffutils.mo_12"/>
+    <ROW File="diffutils.mo_12" Component_="diffutils.mo_12" FileName="diffut~1.mo|diffutils.mo" Attributes="0" SourcePath="share\locale\id\LC_MESSAGES\diffutils.mo" SelfReg="false" NextFile="diffutils.mo_13"/>
+    <ROW File="diffutils.mo_13" Component_="diffutils.mo_13" FileName="diffut~1.mo|diffutils.mo" Attributes="0" SourcePath="share\locale\ja\LC_MESSAGES\diffutils.mo" SelfReg="false" NextFile="diffutils.mo_14"/>
+    <ROW File="diffutils.mo_14" Component_="diffutils.mo_14" FileName="diffut~1.mo|diffutils.mo" Attributes="0" SourcePath="share\locale\ms\LC_MESSAGES\diffutils.mo" SelfReg="false" NextFile="diffutils.mo_15"/>
+    <ROW File="diffutils.mo_15" Component_="diffutils.mo_15" FileName="diffut~1.mo|diffutils.mo" Attributes="0" SourcePath="share\locale\nl\LC_MESSAGES\diffutils.mo" SelfReg="false" NextFile="diffutils.mo_16"/>
+    <ROW File="diffutils.mo_16" Component_="diffutils.mo_16" FileName="diffut~1.mo|diffutils.mo" Attributes="0" SourcePath="share\locale\pl\LC_MESSAGES\diffutils.mo" SelfReg="false" NextFile="diffutils.mo_17"/>
+    <ROW File="diffutils.mo_17" Component_="diffutils.mo_17" FileName="diffut~1.mo|diffutils.mo" Attributes="0" SourcePath="share\locale\pt_BR\LC_MESSAGES\diffutils.mo" SelfReg="false" NextFile="diffutils.mo_18"/>
+    <ROW File="diffutils.mo_18" Component_="diffutils.mo_18" FileName="diffut~1.mo|diffutils.mo" Attributes="0" SourcePath="share\locale\ro\LC_MESSAGES\diffutils.mo" SelfReg="false" NextFile="diffutils.mo_19"/>
+    <ROW File="diffutils.mo_19" Component_="diffutils.mo_19" FileName="diffut~1.mo|diffutils.mo" Attributes="0" SourcePath="share\locale\ru\LC_MESSAGES\diffutils.mo" SelfReg="false" NextFile="diffutils.mo_20"/>
+    <ROW File="diffutils.mo_2" Component_="diffutils.mo_2" FileName="diffut~1.mo|diffutils.mo" Attributes="0" SourcePath="share\locale\da\LC_MESSAGES\diffutils.mo" SelfReg="false" NextFile="diffutils.mo_3"/>
+    <ROW File="diffutils.mo_20" Component_="diffutils.mo_20" FileName="diffut~1.mo|diffutils.mo" Attributes="0" SourcePath="share\locale\sr\LC_MESSAGES\diffutils.mo" SelfReg="false" NextFile="diffutils.mo_21"/>
+    <ROW File="diffutils.mo_21" Component_="diffutils.mo_21" FileName="diffut~1.mo|diffutils.mo" Attributes="0" SourcePath="share\locale\sv\LC_MESSAGES\diffutils.mo" SelfReg="false" NextFile="diffutils.mo_22"/>
+    <ROW File="diffutils.mo_22" Component_="diffutils.mo_22" FileName="diffut~1.mo|diffutils.mo" Attributes="0" SourcePath="share\locale\tr\LC_MESSAGES\diffutils.mo" SelfReg="false" NextFile="diffutils.mo_23"/>
+    <ROW File="diffutils.mo_23" Component_="diffutils.mo_23" FileName="diffut~1.mo|diffutils.mo" Attributes="0" SourcePath="share\locale\zh_TW\LC_MESSAGES\diffutils.mo" SelfReg="false"/>
+    <ROW File="diffutils.mo_3" Component_="diffutils.mo_3" FileName="diffut~1.mo|diffutils.mo" Attributes="0" SourcePath="share\locale\de\LC_MESSAGES\diffutils.mo" SelfReg="false" NextFile="diffutils.mo_4"/>
+    <ROW File="diffutils.mo_4" Component_="diffutils.mo_4" FileName="diffut~1.mo|diffutils.mo" Attributes="0" SourcePath="share\locale\el\LC_MESSAGES\diffutils.mo" SelfReg="false" NextFile="diffutils.mo_5"/>
+    <ROW File="diffutils.mo_5" Component_="diffutils.mo_5" FileName="diffut~1.mo|diffutils.mo" Attributes="0" SourcePath="share\locale\eo\LC_MESSAGES\diffutils.mo" SelfReg="false" NextFile="diffutils.mo_6"/>
+    <ROW File="diffutils.mo_6" Component_="diffutils.mo_6" FileName="diffut~1.mo|diffutils.mo" Attributes="0" SourcePath="share\locale\es\LC_MESSAGES\diffutils.mo" SelfReg="false" NextFile="diffutils.mo_7"/>
+    <ROW File="diffutils.mo_7" Component_="diffutils.mo_7" FileName="diffut~1.mo|diffutils.mo" Attributes="0" SourcePath="share\locale\fi\LC_MESSAGES\diffutils.mo" SelfReg="false" NextFile="diffutils.mo_8"/>
+    <ROW File="diffutils.mo_8" Component_="diffutils.mo_8" FileName="diffut~1.mo|diffutils.mo" Attributes="0" SourcePath="share\locale\fr\LC_MESSAGES\diffutils.mo" SelfReg="false" NextFile="diffutils.mo_9"/>
+    <ROW File="diffutils.mo_9" Component_="diffutils.mo_9" FileName="diffut~1.mo|diffutils.mo" Attributes="0" SourcePath="share\locale\gl\LC_MESSAGES\diffutils.mo" SelfReg="false" NextFile="diffutils.mo_10"/>
+    <ROW File="diffutils2.8.71GnuWin32.README" Component_="dependsGnuWin32.lst" FileName="diffut~1.REA|diffutils-2.8.7-1-GnuWin32.README" Attributes="0" SourcePath="contrib\diffutils\2.8.7\diffutils-2.8.7-1-GnuWin32.README" SelfReg="false" NextFile="ABOUTNLS"/>
+    <ROW File="diffutils2.8.71bin.mft" Component_="diffutils2.8.71bin.mft" FileName="diffut~1.mft|diffutils-2.8.7-1-bin.mft" Attributes="0" SourcePath="manifest\diffutils-2.8.7-1-bin.mft" SelfReg="false" NextFile="diffutils2.8.71bin.ver"/>
+    <ROW File="diffutils2.8.71bin.ver" Component_="diffutils2.8.71bin.mft" FileName="diffut~1.ver|diffutils-2.8.7-1-bin.ver" Attributes="0" SourcePath="manifest\diffutils-2.8.7-1-bin.ver" SelfReg="false" NextFile="diffutils2.8.71dep.mft"/>
+    <ROW File="diffutils2.8.71dep.mft" Component_="diffutils2.8.71bin.mft" FileName="diffut~2.mft|diffutils-2.8.7-1-dep.mft" Attributes="0" SourcePath="manifest\diffutils-2.8.7-1-dep.mft" SelfReg="false" NextFile="diffutils2.8.71dep.ver"/>
+    <ROW File="diffutils2.8.71dep.ver" Component_="diffutils2.8.71bin.mft" FileName="diffut~2.ver|diffutils-2.8.7-1-dep.ver" Attributes="0" SourcePath="manifest\diffutils-2.8.7-1-dep.ver" SelfReg="false" NextFile="diffutils2.8.71doc.mft"/>
+    <ROW File="diffutils2.8.71doc.mft" Component_="diffutils2.8.71bin.mft" FileName="diffut~3.mft|diffutils-2.8.7-1-doc.mft" Attributes="0" SourcePath="manifest\diffutils-2.8.7-1-doc.mft" SelfReg="false" NextFile="diffutils2.8.71doc.ver"/>
+    <ROW File="diffutils2.8.71doc.ver" Component_="diffutils2.8.71bin.mft" FileName="diffut~3.ver|diffutils-2.8.7-1-doc.ver" Attributes="0" SourcePath="manifest\diffutils-2.8.7-1-doc.ver" SelfReg="false" NextFile="diffutils.mo"/>
+    <ROW File="diffutilsman.pdf" Component_="diffutilsman.pdf" FileName="diffut~1.pdf|diffutils-man.pdf" Attributes="0" SourcePath="man\pdf\diffutils-man.pdf" SelfReg="false" NextFile="diffutilsman.ps.gz"/>
+    <ROW File="diffutilsman.ps.gz" Component_="diffutilsman.ps.gz" FileName="diffut~1.gz|diffutils-man.ps.gz" Attributes="0" SourcePath="man\ps\diffutils-man.ps.gz" SelfReg="false" NextFile="diffutils2.8.71bin.mft"/>
+    <ROW File="dir" Component_="diff.info" FileName="dir" Attributes="0" SourcePath="info\dir" SelfReg="false" NextFile="cmp.1.txt"/>
+    <ROW File="libiconv2.dll" Component_="libiconv2.dll" FileName="libico~1.dll|libiconv2.dll" Attributes="0" SourcePath="bin\libiconv2.dll" SelfReg="false" NextFile="libintl3.dll"/>
+    <ROW File="libintl3.dll" Component_="libintl3.dll" FileName="libintl3.dll" Attributes="0" SourcePath="bin\libintl3.dll" SelfReg="false" NextFile="sdiff.exe"/>
+    <ROW File="sdiff.1" Component_="cmp.1" FileName="sdiff.1" Attributes="0" SourcePath="man\man1\sdiff.1" SelfReg="false" NextFile="diffutilsman.pdf"/>
+    <ROW File="sdiff.1.html" Component_="cmp.1.html" FileName="sdiff1~1.htm|sdiff.1.html" Attributes="0" SourcePath="man\html\sdiff.1.html" SelfReg="false" NextFile="cmp.1"/>
+    <ROW File="sdiff.1.txt" Component_="cmp.1.txt" FileName="sdiff1~1.txt|sdiff.1.txt" Attributes="0" SourcePath="man\cat1\sdiff.1.txt" SelfReg="false" NextFile="cmp.1.html"/>
+    <ROW File="sdiff.exe" Component_="sdiff.exe" FileName="sdiff.exe" Attributes="0" SourcePath="bin\sdiff.exe" SelfReg="false" NextFile="dependsGnuWin32.lst"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" PackageFolder="." PackageFileName="diff-2.8.7" Languages="en" InstallationType="4"/>
+    <ATTRIBUTE name="CurrentBuild" value="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\FolderDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ATTRIBUTE name="FixedSizeBitmaps" value="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="401"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiEnvComponent">
+    <ROW Environment="PATH" Name="=-*PATH" Value="[~];[APPDIR]bin" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="diff.exe" SourcePath="diff.ico" Index="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]" DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMax="[|ProductVersion]" Attributes="1025" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+</DOCUMENT>
